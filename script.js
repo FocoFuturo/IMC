@@ -10,7 +10,7 @@ const resImc = () => {
 
         if (imc < 18.5) {
             classification = 'Magreza 0'
-        } else if ((imc == 18.5) && (imc <= 24.9)) {
+        } else if ((imc >= 18.5) && (imc <= 24.9)) {
             classification = 'Normal 0'
         } else if ((imc >= 25) && (imc <= 29.9)) {
             classification = 'Sobrepeso I'
